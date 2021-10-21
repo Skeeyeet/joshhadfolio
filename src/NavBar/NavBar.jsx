@@ -11,8 +11,8 @@ class Navbar extends Component {
                     <NavBarItem Content="Unreal engine" Href="#unreal"/>
                     <NavBarItem Content="React" Href="#react"/>
                     <NavBarItem Content="Discord bot" Href="#discord"/>
-                    <NavBarItem Content="3ds Max"/>
-                    <NavBarItem Content="Contact"/>
+                    <NavBarItem Content="3ds Max" Href="3dsMax"/>
+                    <NavBarItem Content="Contact" Href="#contact"/>
                     </ul>
                 </nav>
             </div>
