@@ -5,6 +5,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <div className="row">
                 <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar navbar-dark bg-dark">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <NavBarItem Content="Home" Href="#/"/>
@@ -15,6 +16,7 @@ class Navbar extends Component {
                     <NavBarItem Content="Contact" Href="#contact"/>
                     </ul>
                 </nav>
+            </div>
             </div>
         )
     }
