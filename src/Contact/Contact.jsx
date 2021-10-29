@@ -1,5 +1,4 @@
 import React from 'react'
-import NormalCenteredText from '../Global/NormalCenteredText'
 import NormalTitleText from '../Global/NormalTitleText'
 function Contact(){
 return(
