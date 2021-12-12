@@ -6,6 +6,7 @@ import ReactPage from './React/React';
 import Discord from './Discord/Discord';
 import MaxPage from './3dsMax/MaxPage';
 import Contact from './Contact/Contact';
+import Weather from './MainWeatherComponent/Weather';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ReactPage/>
       <Discord/>
       <MaxPage/>
+      <Weather/>
       <Contact/>
     </div>
   );

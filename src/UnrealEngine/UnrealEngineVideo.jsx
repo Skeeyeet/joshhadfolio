@@ -13,7 +13,7 @@ class UnrealEngineVideo extends Component {
         return (
             <div className="col-12 col-xl-6 col-md-12 col-sm-12" align="center">
                 <div className="embed-responsive embed-responsive-16by9">
-                    <iframe title="Video player" width="100%" height="400" src={this.state.Link} />
+                    <iframe title="Video player" width="80%" height="400" src={this.state.Link} />
                     <p className="lead text-white">{this.state.Content}</p>
                 </div>
             </div>
