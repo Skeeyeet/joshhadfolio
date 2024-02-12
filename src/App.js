@@ -11,7 +11,7 @@ import Weather from './MainWeatherComponent/Weather';
 function App() {
   return (
     <div className="container-fluid bg-dark">
-      <Navbar/>
+     
       <WelcomeSegment/>
       <UnrealEngine/>
       <ReactPage/>
