@@ -1,5 +1,5 @@
 body{
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 }
 
 @media (max-width: 991px) {
@@ -7,3 +7,9 @@ body{
       padding-top: 230px;
     }
   }
+
+  @media only screen and (max-width: 990px) {
+    .navcomponent{
+      display: none;
+    }
+}
